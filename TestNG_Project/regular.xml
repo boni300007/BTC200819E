@@ -1,0 +1,7 @@
+<suite name = "anything">
+	<test name = "whatever1">
+		<classes>
+			<class name = "com.Hello"></class>
+		</classes>
+	</test>
+</suite>

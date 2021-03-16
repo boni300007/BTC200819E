@@ -1,0 +1,15 @@
+<suite name = "anything">
+	<listeners>
+		<listener class-name = "solution.BaseListner"> </listener>
+	</listeners>
+	<test name = "whatever1">
+		<classes>
+			<class name = "bit.test_1"></class>
+		</classes>
+	</test>
+	<test name = "whatever2">
+		<classes>
+			<class name = "com.test_2"></class>
+		</classes>
+	</test>
+</suite>

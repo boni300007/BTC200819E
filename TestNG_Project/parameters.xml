@@ -1,0 +1,9 @@
+<suite name = "anything">
+	<test name = "whatever1">
+		<parameter name = "browser" value = "fireFox"></parameter>
+		<parameter name = "url" value = "google"></parameter>
+		<classes>
+			<class name = "com.SmokeTest"></class>
+		</classes>
+	</test>
+</suite>

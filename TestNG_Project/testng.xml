@@ -1,0 +1,16 @@
+<suite name = "anything">
+	<test name = "whatever1">
+		<groups>
+			<run>
+				<include name = "Smoke"></include>
+				<include name = "Unit"></include>
+			</run>
+		</groups>
+		<classes>
+			<packages>
+				<package name ="com"></package>
+				<package name ="bit"></package>
+			</packages>
+		</classes>
+	</test>
+</suite>

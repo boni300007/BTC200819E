@@ -1,0 +1,49 @@
+[RemoteTestNG] detected TestNG version 7.3.0
+
+
+bs       	     before suite   // one time  staring run
+bt	      		 before test   // one time
+
+
+bc	      		 before class  // all time before class 
+
+bm	      		 before method // every time before method
+Test1 SomeTest   Test1         // method
+am 				 After method  // every time after method
+
+
+ac               After Class   // every time after class
+
+
+bc				 Before class // all time before class for next class
+
+
+bm		 		 Before method  // every time before method
+Test2			 Regression Test 2  // method
+am   			 After Method    // every time after method
+
+bm				 Before method   // every time before method 
+Test3			 Regression Test 3 // method 
+am				 After method     //every time after method
+
+ac				 After Class    // every time after class
+
+at				 After Test    // one time after test
+
+PASSED: test1
+PASSED: test2
+PASSED: test3
+
+===============================================
+    Default test
+    Tests run: 3, Failures: 0, Skips: 0
+===============================================
+
+as             After suite   // one time closing run
+
+===============================================
+Default suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+ // % mvn test-psmoke      profile name 

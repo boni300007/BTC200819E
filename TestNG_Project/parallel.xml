@@ -1,0 +1,12 @@
+<suite name = "anything" parallel = "trsts">
+	<test name = "whatever1">
+		<classes>
+			<class name = "bit.parallel"></class>
+		</classes>
+	</test>
+	<test name = "whatever2">
+		<classes>
+			<class name = "bit.helping"></class>
+		</classes>
+	</test>
+</suite>
