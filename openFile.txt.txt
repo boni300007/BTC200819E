@@ -1,0 +1,6 @@
+git checkout
+
+git checkout working
+wrong line
+
+let check git diff

@@ -1,1 +1,11 @@
 we are learning linux command as will as gid command tools
+
+1. Open git bash from your folder or using git bash go upto your folder.
+2. touch: To create any file use touch comment in git bash or create by your self or inpout anywhere on your computer like export from eclipse, download from internet
+3. git init: Initialized empty git repository on that folder
+4. ls -lart: this commaand will show you all the files including hiden file.
+5. git add fileName will add your file to  (untracked, unmodified, modified,Staged) Staged level from untracked. 
+6. git commit: new page will open then, press i (type anything) then ese then :wq then enter
+7 git commit -m "anything can wright" this is shorcut for upper page. S
+
+
