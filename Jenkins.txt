@@ -1,0 +1,11 @@
+Create a job
+
+Go on Jenkins using localhost:8080 location 
+New item 
+Give the name of item
+Click on Freestyle project for now
+Then it will nevigative to configure page 
+Under that page we can configure our job 
+Under General 
+we can right something about boj in Descriotion box
+then click on advance option and click on Use Custom Workspage and put your sourch 
