@@ -6,6 +6,15 @@ Give the name of item
 Click on Freestyle project for now
 Then it will nevigative to configure page 
 Under that page we can configure our job 
+
 Under General 
 we can right something about boj in Descriotion box
 then click on advance option and click on Use Custom Workspage and put your sourch 
+
+Under Source Code Mangement 
+Click None for local source 
+
+Under Build triggers 
+Click Build periodically and schedule the time
+
+Build Environment 
